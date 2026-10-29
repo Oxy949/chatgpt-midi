@@ -1,0 +1,7 @@
+# Keep BusyBox / Alpine shell scripts runnable from Linux
+*.sh text eol=lf
+scripts/midi-chromium text eol=lf
+*.py text eol=lf
+*.md text eol=lf
+*.toml text eol=lf
+*.yml text eol=lf

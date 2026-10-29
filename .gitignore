@@ -1,0 +1,57 @@
+# Python generated files
+__pycache__/
+.venv/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+*.egg-info/
+build/
+dist/
+
+# Runtime, secrets and local browser/account state (NEVER commit)
+.env
+.env.*
+!.env.example
+*.log
+*.pid
+*.sock
+*.sqlite
+*.sqlite3
+*.db
+*.pem
+*.key
+*.p12
+*.pfx
+*.cookie
+cookies*
+profile/
+browser-profile/
+user-data-dir/
+chromium-profile/
+.local/
+.state/
+run/
+logs/
+
+# Sensitive browser diagnostics (may contain chat content/account data)
+screen.png
+page.html
+structure.json
+snapshot*/
+
+# Generated audio and archives
+*.wav
+*.pcm
+*.raw
+*.fifo
+*.zip
+*.tar.gz
+
+# OS/editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
